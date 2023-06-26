@@ -5,6 +5,7 @@ import { Box, SxProps, Theme } from "@mui/material";
 import { Route, Routes } from "react-router-dom";
 import { TopPage } from "./pages/TopPage";
 import { SamplePage } from "./pages/SamplePage";
+import { HomePage } from "./pages/HomePage";
 
 // Appのメインの実装（表示する画面とpathを定義）
 export const App = () => {
