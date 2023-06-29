@@ -1,4 +1,4 @@
-import { Box, SxProps, Theme } from "@mui/material";
+import { Box, SxProps, Theme, Typography } from "@mui/material";
 
 export const Company = () => {
     const itemList = [
@@ -10,7 +10,28 @@ export const Company = () => {
     ]
     return (
         <Box className="Company" sx={sx}>
-            test
+            <Box className="Title">
+                <Typography variant="h1" fontWeight={400}>C<a className="color">OMPANY</a></Typography>
+                <Typography variant="h6" fontWeight={600}>会社概要</Typography>
+            </Box>
+            <Box className="Object">
+                <Box className="text">
+                    {itemList.map((item) => (
+                        <Box className="num" sx={{ borderBottom: 1 }}>
+                            <Typography className="text1" variant="h6">{item.text1}</Typography>
+                            <Typography className="text2" variant="h6">{item.text2}</Typography>
+                        </Box>
+                    ))}
+                    <Box className="num6">
+                        <Typography className="text1" variant="h6">取引銀行取引先</Typography>
+                        <Typography className="text3" variant="h6"><p>三菱UFJ銀行</p><p>SBIネット銀行</p></Typography>
+                    </Box>
+                    <Box className="num7">
+                        <Typography className="text1" variant="h6">取引先</Typography>
+                        <Typography className="text3" variant="h6"><p>株式会社バンタン</p><p>株式会社ジョブクラウン</p><p>株式会社メルメクス</p><p>マナルカ合同会社</p></Typography>
+                    </Box>
+                </Box>
+            </Box>
         </Box>
     );
 };
@@ -18,6 +39,8 @@ export const Company = () => {
 const sx: SxProps<Theme> = {
     "&.Company": {
         width: "100%",
+        backgroundColor: "#22A1B9",
+        color: "#FFF",
     },
     ".Title": {
         textAlign: "center",
