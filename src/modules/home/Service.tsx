@@ -116,6 +116,8 @@ const sx: SxProps<Theme> = {
         margin: "0px 80px 0",
     },
     ".Image1": {
+        width: "50%",
+        borderImageWidth: "30%"
     },
     ".Image2": {
     },

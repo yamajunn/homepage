@@ -41,6 +41,8 @@ const sx: SxProps<Theme> = {
         width: "100%",
         backgroundColor: "#22A1B9",
         color: "#FFF",
+        paddingTop: "50px",
+        paddingBottom: "50px",
     },
     ".Title": {
         textAlign: "center",
