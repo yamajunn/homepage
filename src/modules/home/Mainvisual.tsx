@@ -6,14 +6,14 @@ export const Mainvisual = () => {
         <Box className="Mainvisual" sx={sx}>
             <img className="Mainvisual-Image" src={MainvisualImg} alt="profile" />
             <Box className="Mainvisual-Title">
-                <Typography className="Mainvisual-Title-Big-0" variant="h1">安心</Typography>
-                <Typography className="Mainvisual-Title-Big-1" variant="h2">と</Typography>
-                <Typography className="Mainvisual-Title-Big-2" variant="h1">信頼</Typography>
-                <Typography className="Mainvisual-Title-Big-3" variant="h2">×</Typography>
-                <Typography className="Mainvisual-Title-Big-4" variant="h1">高度</Typography>
-                <Typography className="Mainvisual-Title-Big-5" variant="h2">な</Typography>
-                <Typography className="Mainvisual-Title-Big-6" variant="h1">技術力</Typography>
-                <Typography className="Mainvisual-Title-Small" variant="h3">高品質な開発を標準に。</Typography>
+                <Typography className="Mainvisual-Title-Big-0" variant="h1" fontWeight={500}>安心</Typography>
+                <Typography className="Mainvisual-Title-Big-1" variant="h2" fontWeight={500}>と</Typography>
+                <Typography className="Mainvisual-Title-Big-2" variant="h1" fontWeight={500}>信頼</Typography>
+                <Typography className="Mainvisual-Title-Big-3" variant="h2" fontWeight={500}>×</Typography>
+                <Typography className="Mainvisual-Title-Big-4" variant="h1" fontWeight={500}>高度</Typography>
+                <Typography className="Mainvisual-Title-Big-5" variant="h2" fontWeight={500}>な</Typography>
+                <Typography className="Mainvisual-Title-Big-6" variant="h1" fontWeight={500}>技術力</Typography>
+                <Typography className="Mainvisual-Title-Small" variant="h3" fontWeight={500}>高品質な開発を標準に。</Typography>
             </Box>
         </Box>
     );

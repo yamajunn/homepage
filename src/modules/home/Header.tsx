@@ -1,19 +1,20 @@
 import { Box, SxProps, Theme, Typography, Link } from "@mui/material";
+import { serialize } from "v8";
 
 export const Header = () => {
     return (
         <Box className="Header" sx={sx}>
             <Box className="Header-Logo">
-                <Typography variant="h6">🌐テクノテクノスタンダード</Typography>
+                <Typography variant="h6" fontWeight="fontWeightBold">🌐テクノテクノスタンダード</Typography>
             </Box>
             <Box className="Header-Top">
-                <Link className="Header-Top-Link" href="#">TOP</Link>
-                <Link className="Header-Top-Link" href="#">ABOUT</Link>
-                <Link className="Header-Top-Link" href="#">SERVICE</Link>
-                <Link className="Header-Top-Link" href="#">COMPANY</Link>
+                <Link className="Header-Top-Link" href="#" fontWeight="fontWeightBold">TOP</Link>
+                <Link className="Header-Top-Link" href="#" fontWeight="fontWeightBold">ABOUT</Link>
+                <Link className="Header-Top-Link" href="#" fontWeight="fontWeightBold">SERVICE</Link>
+                <Link className="Header-Top-Link" href="#" fontWeight="fontWeightBold">COMPANY</Link>
             </Box>
             <Box className="Header-Button">
-                <Link className="Header-Button-Text" href="#">CONTACT</Link>
+                <Link className="Header-Button-Text" href="#" fontWeight="fontWeightBold">CONTACT</Link>
             </Box>
         </Box>
     );
